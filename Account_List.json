@@ -1,0 +1,30 @@
+[
+  {
+    "name": "A",
+    "balance": 28.2,
+    "lastTransaction": {
+      "amount": 0.0,
+      "data": "2023-09-01",
+      "nomeSender": "Z",
+      "nomeReceiver": "A"
+    }
+  },
+  {
+    "name": "C",
+    "balance": 9.9,
+    "lastTransaction": {
+      "amount": 0.1,
+      "data": "2023-08-31",
+      "nomeSender": "C",
+      "nomeReceiver": "A"
+    }
+  },
+  {
+    "name": "Z",
+    "balance": 10.0
+  },
+  {
+    "name": "AA",
+    "balance": 14.0
+  }
+]
