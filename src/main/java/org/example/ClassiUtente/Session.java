@@ -10,13 +10,13 @@ class Session {
     }
 
     public boolean move(double amount) {
-        synchronized (Server.getAccounts()) {
+        //synchronized (Server.getAccounts()) {
             if (account1.getBalance() >= amount) {
                 account1.transfer(account2, amount);
                 return true;
             }
             return false;
-        }
+        // }
     }
 
 
